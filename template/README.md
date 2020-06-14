@@ -1,0 +1,1 @@
+You must fill the "accounts.json" file with required strings and put it in the same directory of the executable.
