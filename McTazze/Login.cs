@@ -7,7 +7,7 @@ namespace McTazze
     {
         public static void Main(string[] args)
         {
-            // Run async task and wait for result
+            // Run async task and wait for result (discarded). This block of code avoids main from being async.
             Task.Run(async() =>
             {
                 var accountsEngine = new webRequest.McThread(Users.users);
